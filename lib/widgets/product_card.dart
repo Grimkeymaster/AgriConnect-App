@@ -69,7 +69,7 @@ class ProductCard extends StatelessWidget {
                         text: TextSpan(
                           children: [
                             TextSpan(
-                                text: "\₹${product.price}",
+                                text: "\$${product.price}",
                                 style: Theme.of(context).textTheme.bodyLarge),
                             TextSpan(
                                 text: "/${product.unit}",

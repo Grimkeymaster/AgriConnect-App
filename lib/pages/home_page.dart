@@ -1,4 +1,7 @@
+import 'package:agriconnect/pages/cart_page.dart';
 import 'package:agriconnect/pages/explore_page.dart';
+import 'package:agriconnect/pages/profile_page.dart';
+import 'package:agriconnect/pages/services_page.dart';
 import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
@@ -11,7 +14,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final pages = [const ExplorePage()];
+  final pages = [const ExplorePage(), const ServicesPage(), const CartPage(), const ProfilePage()];
   int currentPageIndex = 0;
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 

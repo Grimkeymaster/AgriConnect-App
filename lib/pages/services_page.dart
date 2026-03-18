@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:agriplant/data/services.dart';
+import 'package:agriconnect/data/services.dart';
 import 'package:flutter/material.dart';
 
 class ServicesPage extends StatelessWidget {
